@@ -1,5 +1,5 @@
 {% set name = "written" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/written-{{ version }}.tar.gz
-  sha256: 4940777e7bcee20b8cb1ff006fda8d216f5b88bdecc3b37d85f6065f8b5522f5
+  sha256: 231582d32abdf27d9293b9e82275884a1e210680ff159232bcadfd5162112bf0
 
 build:
   entry_points:
